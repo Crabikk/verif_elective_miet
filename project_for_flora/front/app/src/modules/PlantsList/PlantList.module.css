@@ -1,0 +1,12 @@
+.plantsList{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.plantsList__grid{
+    display:grid;
+    grid-template-columns: repeat(4, 400px);
+    justify-content: center;
+    gap: 50px;
+}
